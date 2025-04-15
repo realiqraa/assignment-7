@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #e7ba50;
+}
+.banner {
+  background-color: #8B4513; 
+  color: black;
+  text-align: center;
+  padding: 50px 0;
+}
+.banner h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+.navbar {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.navbar a {
+  color: #006400; 
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+.content {
+  padding: 40px;
+}
+.content h2 {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+.content p:nth-of-type(1),
+.content p:nth-of-type(2) {
+  color: #5A2A00;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.content p:nth-of-type(3) {
+  color: black;
+  font-size: 18px;
+  line-height: 1.6;
+}
